@@ -5,7 +5,7 @@ Very short info:
 - Data serialization / deserialization is done using protobuf.
 - You will need to compile the protocol to the language of your choice.
 
-- Atart your connection with a JoinWorld message 
+- Start your connection with a JoinWorld message 
 - All messages you'll receive and send thereafter will be of type WorldEvent 
 - You don't have to set the issuer_local_player_id  when sending a message 
 - Send a WorldEvent message with event_type  WorldEventType.Sync if you want to make the bot visible in the game 
